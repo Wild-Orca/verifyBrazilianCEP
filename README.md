@@ -1,7 +1,7 @@
 # Função Para Validar CEPs Brasileiros
 
 # Modelo de consulta Oracle SQL:
-SELECT FNC_VERIFY_CEP_API(LPAD(REPLACE('1234-5678','-',''),8,0)) FROM DUAL;
+SELECT FNC_VERIFY_CEP(LPAD(REPLACE('1234-5678','-',''),8,0)) FROM DUAL;
 
 # Modelo de consulta JavaScript:
 const result = await verifyCEP("12345-678");
